@@ -94,7 +94,7 @@ B更新自己的私钥，生成公钥
 ## 使用说明
 1. 克隆项目到本地：
    ```bash
-   git clone https://github.com/zixin/encryption-system.git
+   git clone git@github.com:ZixinYan/CryptographySystem.git
 
 2. 完善AliOSSUtil类，把自己的buket名称和AccessKey填进去
 3. 在application.yml配置数据库信息
