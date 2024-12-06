@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zixin.cryptography.mapper.NoteMapper">
+    <select id="list" resultType="com.zixin.cryptography.pojo.Note">
+        select * from note
+        <where>
+            <if test="createUser != null">
+                and create_user = #{createUser}
+            </if>
+            <if test="targetUser != null">
+                and target_user = #{targetUser}
+            </if>
+            <if test="id != null">
+                and (create_user = #{id} or target_user = #{id})
+            </if>
+        </where>
+    </select>
+</mapper>
+
