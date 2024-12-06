@@ -101,5 +101,6 @@ B更新自己的私钥，生成公钥
 4. 在vscode文件夹下的是本项目的前端文件，tool文件夹下的本项目用到的加解密程序，fileStorage中存储了加解密中上传的文件，result中存储了加解密的结果文件
 
 ## 其他
-1. 本系统的接口文档信息在https://www.yuque.com/yuqueyonghuutagdr/fbmk9t/bte5dfbcd2watgc9?singleDoc#，如果过期了可以发文件找我
-2. 系统有一些设计暂时有缺陷，但是大体功能已经完善，其中的素材基本都源于网上，可以替换
+1. 本系统的接口文档信息在https://www.yuque.com/yuqueyonghuutagdr/fbmk9t/bte5dfbcd2watgc9?singleDoc#
+   这个链接有时间限制，如果过期了还需要的话可以发文件找我
+3. 系统有一些设计暂时有缺陷，但是大体功能已经完善，其中的素材基本都源于网上，可以替换
