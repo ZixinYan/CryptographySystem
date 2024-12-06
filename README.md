@@ -107,6 +107,7 @@ B更新自己的私钥，生成公钥
 2. 完善AliOSSUtil类，把自己的buket名称和AccessKey填进去
 3. 在application.yml配置数据库信息
 4. 在vscode文件夹下的是本项目的前端文件，tool文件夹下的本项目用到的加解密程序，fileStorage中存储了加解密中上传的文件，result中存储了加解密的结果文件
+5. 在文件存储和调用都用的是绝对路径，所以运行需要更改，具体就是在每一个serviceImpl中改一下，还有在FileUpload的类中改一下方法存储的地址
 
 ## 其他
 1. 本系统的接口文档信息在https://www.yuque.com/yuqueyonghuutagdr/fbmk9t/bte5dfbcd2watgc9?singleDoc#
