@@ -8,7 +8,7 @@
 ## UI 界面展示
 下图展示了系统的主要用户界面：
 
-![UI 界面展示]()
+![UI 界面展示](pic/main.png)
 
 ---
 
@@ -22,7 +22,8 @@
 
 界面展示如下：
 
-![加密模块界面](path/to/your/encrypt-module-image.png)
+![加解密模块界面](pic/encrypt.png)
+![数字签名界面](pic/signature.png)
 
 ---
 
@@ -35,7 +36,10 @@
 
 界面展示如下：
 
-![解密模块界面](path/to/your/decrypt-module-image.png)
+![登录界面](pic/logIn.png)
+![注册界面](pic/register.png)
+![找回密码界面](pic/findPassword.png)
+![重置密码，添加头像，添加昵称邮箱](pic/information.png)
 
 ---
 
@@ -51,27 +55,31 @@
 
 界面展示如下：
 
-![解密模块界面](path/to/your/decrypt-module-image.png)
+![信件界面](pic/note_main.png)
+![新建新建](pic/note.png)
+![查看信件](pic/check.png)
 
 ---
 
 ### 4. DH密钥交换模块
 实现了DH密钥传输过程：
+![主页面](pic/DH.png)
 #### 1.A发起DH交换请求
 提供自动生成私钥，也可以自己写，选择交换密钥对象，私钥不会存入数据库所以要自己保存好
+![申请界面](pic/DH_add.png)
 
 #### 2.B响应DH交换请求
 B更新自己的私钥，生成公钥
+![响应界面](pic/DH_update.png)
 
 #### 3.计算公共密钥
 在信息完善后就可以进行计算了
+![计算界面](pic/DH_cal.png)
 
 #### 4.DH公共密钥删除
 在任意一方进行删除就会在双方的存储系统中都删除，宣布报废
 
-界面展示如下：
 
-![解密模块界面](path/to/your/decrypt-module-image.png)
 
 ---
 
